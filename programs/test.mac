@@ -1,0 +1,133 @@
+	StartBlock Header
+	StartBlock Body Value:undefined
+		Gripper Header
+		Gripper Body Value:open
+		Gripper Footer
+	StartBlock Footer 
+;xml 	<xml xmlns="http://www.w3.org/1999/xhtml">
+;xml 	  <variables></variables>
+;xml 	  <block type="start_block" id=";$O%W-LPf9mlDqwqPF?k" deletable="false" movable="false" x="5" y="60">
+;xml 	    <next>
+;xml 	      <block type="gripper" id="-93[S-bR1%d/0YK=u+`$">
+;xml 	        <value name="CHOICE">
+;xml 	          <shadow type="dropdown_gripper" id="2pLh#rujf/O@ecxGvl-,">
+;xml 	            <field name="CHOICE">open</field>
+;xml 	          </shadow>
+;xml 	        </value>
+;xml 	        <next>
+;xml 	          <block type="move" id="O?KMJ]JXr[CDjj|7pp(.">
+;xml 	            <next>
+;xml 	              <block type="move_to_safe" id="|~m6BH6M7#i1(Mk{p-L;">
+;xml 	                <next>
+;xml 	                  <block type="set_speed" id="0F:p9OOIRj$16)8;K|T)">
+;xml 	                    <value name="CHOICE">
+;xml 	                      <shadow type="dropdown_set_speed" id="4RcpXYdLI^kxxg_Er7l`">
+;xml 	                        <field name="CHOICE">fast</field>
+;xml 	                      </shadow>
+;xml 	                    </value>
+;xml 	                    <next>
+;xml 	                      <block type="handshake" id="^EnH14a:?]sQfgq9F.%o">
+;xml 	                        <value name="CHOICE">
+;xml 	                          <shadow type="dropdown_handshake" id="mKE^.wYb*yO.pJ}FD$dr">
+;xml 	                            <field name="CHOICE">GO_PRESSED</field>
+;xml 	                          </shadow>
+;xml 	                        </value>
+;xml 	                        <next>
+;xml 	                          <block type="control_wait" id="pGxEj0M:`vH0t}X4~D/6">
+;xml 	                            <value name="DURATION">
+;xml 	                              <shadow type="math_positive_number" id="[9=WysUIW_ojGg02rTmN">
+;xml 	                                <field name="NUM">1s</field>
+;xml 	                              </shadow>
+;xml 	                            </value>
+;xml 	                            <next>
+;xml 	                              <block type="gripper" id="pq*}V+?Uz*;5y$k66!GC">
+;xml 	                                <value name="CHOICE">
+;xml 	                                  <shadow type="dropdown_gripper" id="^6QHMFlNAPoIe[;$^/h|">
+;xml 	                                    <field name="CHOICE">open</field>
+;xml 	                                  </shadow>
+;xml 	                                </value>
+;xml 	                                <next>
+;xml 	                                  <block type="move_to_safe" id="h*X)N9-R}[LzZaUG#o_2">
+;xml 	                                    <next>
+;xml 	                                      <block type="gripper" id="bW0Ja`-rmm:K`i+I2iTE">
+;xml 	                                        <value name="CHOICE">
+;xml 	                                          <shadow type="dropdown_gripper" id="I9iZcdJYJ;E^4Bbq0%rZ">
+;xml 	                                            <field name="CHOICE">open</field>
+;xml 	                                          </shadow>
+;xml 	                                        </value>
+;xml 	                                        <next>
+;xml 	                                          <block type="move" id="0.Vfe.?[2M^|Rz8*v{/;">
+;xml 	                                            <next>
+;xml 	                                              <block type="set_speed" id="`Au8)I;I*Mx(Ip=,:3au">
+;xml 	                                                <value name="CHOICE">
+;xml 	                                                  <shadow type="dropdown_set_speed" id="Frk0GV)j8eAt.92BGZYj">
+;xml 	                                                    <field name="CHOICE">fast</field>
+;xml 	                                                  </shadow>
+;xml 	                                                </value>
+;xml 	                                                <next>
+;xml 	                                                  <block type="loop_forever" id="_AM4%:sEhI52@Z@P+kZY">
+;xml 	                                                    <statement name="SUBSTACK">
+;xml 	                                                      <block type="control_repeat" id="QaMZ:Ep!(1T2L45I[AXc">
+;xml 	                                                        <statement name="SUBSTACK">
+;xml 	                                                          <block type="move" id="qCJ_T8H`AFS6)1pVD5.b">
+;xml 	                                                            <next>
+;xml 	                                                              <block type="move" id="Ib#)zHXAp!sA33~=P.Tr">
+;xml 	                                                                <next>
+;xml 	                                                                  <block type="set_speed" id="W/1$N+o?[^Oi{)}iw+}#">
+;xml 	                                                                    <value name="CHOICE">
+;xml 	                                                                      <shadow type="dropdown_set_speed" id="uj__@BfO!e,/)h:@#:PJ">
+;xml 	                                                                        <field name="CHOICE">fast</field>
+;xml 	                                                                      </shadow>
+;xml 	                                                                    </value>
+;xml 	                                                                    <next>
+;xml 	                                                                      <block type="gripper" id="YwLwO#w25:OYwvcir}j_">
+;xml 	                                                                        <value name="CHOICE">
+;xml 	                                                                          <shadow type="dropdown_gripper" id="B*DBXu3mACZ0Tp2qeUz-">
+;xml 	                                                                            <field name="CHOICE">open</field>
+;xml 	                                                                          </shadow>
+;xml 	                                                                        </value>
+;xml 	                                                                      </block>
+;xml 	                                                                    </next>
+;xml 	                                                                  </block>
+;xml 	                                                                </next>
+;xml 	                                                              </block>
+;xml 	                                                            </next>
+;xml 	                                                          </block>
+;xml 	                                                        </statement>
+;xml 	                                                        <value name="TIMES">
+;xml 	                                                          <shadow type="math_whole_number" id="{tVt(UZ~h[HzYF3)}#n$">
+;xml 	                                                            <field name="NUM">4</field>
+;xml 	                                                          </shadow>
+;xml 	                                                        </value>
+;xml 	                                                      </block>
+;xml 	                                                    </statement>
+;xml 	                                                  </block>
+;xml 	                                                </next>
+;xml 	                                              </block>
+;xml 	                                            </next>
+;xml 	                                          </block>
+;xml 	                                        </next>
+;xml 	                                      </block>
+;xml 	                                    </next>
+;xml 	                                  </block>
+;xml 	                                </next>
+;xml 	                              </block>
+;xml 	                            </next>
+;xml 	                          </block>
+;xml 	                        </next>
+;xml 	                      </block>
+;xml 	                    </next>
+;xml 	                  </block>
+;xml 	                </next>
+;xml 	              </block>
+;xml 	            </next>
+;xml 	          </block>
+;xml 	        </next>
+;xml 	      </block>
+;xml 	    </next>
+;xml 	  </block>
+;xml 	</xml>
+
+	Gripper Header
+	Gripper Body Value:open
+	Gripper Footer

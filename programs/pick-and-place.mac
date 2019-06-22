@@ -1,0 +1,41 @@
+	StartBlock Header
+	StartBlock Body Value:undefined
+		Gripper Header
+		Gripper Body Value:open
+		Gripper Footer
+	StartBlock Footer 
+;xml 	<xml xmlns="http://www.w3.org/1999/xhtml">
+;xml 	  <variables></variables>
+;xml 	  <block type="start_block" id=";$O%W-LPf9mlDqwqPF?k" deletable="false" movable="false" x="5" y="60">
+;xml 	    <next>
+;xml 	      <block type="gripper" id="-93[S-bR1%d/0YK=u+`$">
+;xml 	        <value name="CHOICE">
+;xml 	          <shadow type="dropdown_gripper" id="2pLh#rujf/O@ecxGvl-,">
+;xml 	            <field name="CHOICE">open</field>
+;xml 	          </shadow>
+;xml 	        </value>
+;xml 	        <next>
+;xml 	          <block type="move" id="O?KMJ]JXr[CDjj|7pp(.">
+;xml 	            <next>
+;xml 	              <block type="move_to_safe" id="|~m6BH6M7#i1(Mk{p-L;">
+;xml 	                <next>
+;xml 	                  <block type="set_speed" id="0F:p9OOIRj$16)8;K|T)">
+;xml 	                    <value name="CHOICE">
+;xml 	                      <shadow type="dropdown_set_speed" id="4RcpXYdLI^kxxg_Er7l`">
+;xml 	                        <field name="CHOICE">fast</field>
+;xml 	                      </shadow>
+;xml 	                    </value>
+;xml 	                  </block>
+;xml 	                </next>
+;xml 	              </block>
+;xml 	            </next>
+;xml 	          </block>
+;xml 	        </next>
+;xml 	      </block>
+;xml 	    </next>
+;xml 	  </block>
+;xml 	</xml>
+
+	Gripper Header
+	Gripper Body Value:open
+	Gripper Footer
